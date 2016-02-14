@@ -1,0 +1,12 @@
+# Request #
+
+# Target Pose
+geometry_msgs/PoseStamped[] pose_stamp
+
+---
+# Response #
+
+# Joint Angles to Achieve Target Pose
+sensor_msgs/JointState[] joint_angles
+
+bool[] valid_pos
