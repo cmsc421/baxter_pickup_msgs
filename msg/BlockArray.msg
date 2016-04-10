@@ -1,2 +1,2 @@
 Header header
-geometry_msgs/PointStamped[] block_poses
+baxter_pickup_msgs/Block[] blocks

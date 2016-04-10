@@ -23,6 +23,9 @@ add_service_files(
 add_message_files(
   FILES
   BlockArray.msg
+  Block.msg
+  Step.msg
+  Plan.msg
 )
 
 generate_messages(DEPENDENCIES std_msgs sensor_msgs geometry_msgs)
